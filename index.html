@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Parmjot Singh</title>
+	<link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body><div class="home"> <!-- this is so that the formatting can differentiate between header layouts. There has to be a better solution -->
+	<header><script>
+	/* Set the width of the side navigation to 250px */
+	function openNav() {
+		document.getElementById("sideNav").style.width = "200px";
+		document.getElementById("open-nav").style.right = "-100px";
+	}
+	
+	/* Set the width of the side navigation to 0 */
+	function closeNav() {
+		document.getElementById("sideNav").style.width = "0";
+		document.getElementById("open-nav").style.right = "7px";
+	} 
+</script>
+<nav>
+	<div id="sideNav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="/assets/images/cross.png"></a><a href="/">
+	               	<div style="width: 24px;"> <!-- even spacing --></div>Home<div style="width: 24px;"> <!-- even spacing --> </div>
+	            </a><a href="/about.html">
+	               	<div style="width: 24px;"> <!-- even spacing --><img src="/assets/images/about-icon.png" class="nav-links-icon"></div>About<div style="width: 24px;"> <!-- even spacing --> </div>
+	            </a><a href="/blog.html">
+	               	<div style="width: 24px;"> <!-- even spacing --><img src="/assets/images/blog-icon.png" class="nav-links-icon"></div>Blog<div style="width: 24px;"> <!-- even spacing --> </div>
+	            </a></div>
+	<span onclick="openNav()" id="open-nav">Navigation</span>
+</nav>
+<div id="header-content"> <!-- center div in middle, and allow text to remain above quick links 60% height of viewport -->
+			<h1 class="page-title">Parmjot Singh</h1>
+			<h2 class="page-summary">a website for some random stuff I do.</h2>
+			
+		</div>
+	</header>
+</div>
+<main>
+			<div class="home">
+			  	<h3 id="welcome"><strong>Welcome!</strong></h3>
+
+<p>This is my website, I guess. This has a bunch of my stuff, and you can find it here. This includes:</p>
+
+<ul>
+  <li><em>look</em></li>
+  <li><em>around</em></li>
+  <li><em>and</em></li>
+  <li><em>see</em></li>
+</ul>
+
+			</div>
+    	</main><footer><div id="footer-links"><a href="/">
+					<div>Home</div>
+				</a><a href="/about.html">
+					<div>About</div>
+				</a><a href="/blog.html">
+					<div>Blog</div>
+				</a></div>
+	    <div id="blatant-advertising">
+	    	This website is using Dusk, a theme built with ❤️ for GitHub pages, by Parmjot Singh.
+	    </div></footer>
+</body>
+</html>

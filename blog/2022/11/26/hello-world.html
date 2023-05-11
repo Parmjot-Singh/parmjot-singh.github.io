@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Hello World!</title>
+	<link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body><header><script>
+	/* Set the width of the side navigation to 250px */
+	function openNav() {
+		document.getElementById("sideNav").style.width = "200px";
+		document.getElementById("open-nav").style.right = "-100px";
+	}
+	
+	/* Set the width of the side navigation to 0 */
+	function closeNav() {
+		document.getElementById("sideNav").style.width = "0";
+		document.getElementById("open-nav").style.right = "7px";
+	} 
+</script>
+<nav>
+	<div id="sideNav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="/assets/images/cross.png"></a><a href="/">
+	               	<div style="width: 24px;"> <!-- even spacing --></div>Home<div style="width: 24px;"> <!-- even spacing --> </div>
+	            </a><a href="/about.html">
+	               	<div style="width: 24px;"> <!-- even spacing --><img src="/assets/images/about-icon.png" class="nav-links-icon"></div>About<div style="width: 24px;"> <!-- even spacing --> </div>
+	            </a><a href="/blog.html">
+	               	<div style="width: 24px;"> <!-- even spacing --><img src="/assets/images/blog-icon.png" class="nav-links-icon"></div>Blog<div style="width: 24px;"> <!-- even spacing --> </div>
+	            </a></div>
+	<span onclick="openNav()" id="open-nav">Navigation</span>
+</nav>
+<div id="header-content"> 
+    	<h1 class="page-title">Blog</h1>
+    	<div id="why"><!-- if anyone can fix this, they get their name in the footer of every website who uses this theme -->
+		    <a class="b2b-container" href="/blog.html">
+		    	<div class="b2b-icon-container">
+                	<img src="/assets/images/blog-icon.png">
+               	</div>
+				<div class="b2-blog">
+	            	<small>
+                    	Back to Blog
+                    </small>
+	            </div>
+		    </a>
+		</div>
+    </div>
+</header>
+<main>
+			<h2>Hello World!</h2>
+			<h5></h5>
+			<p>26 Nov 2022</p>
+			<article>
+				<p>This is my blog, you’ll (probably) find a bunch of stuff here about my life and whatever else I choose to post.</p>
+
+<blockquote>
+  <p>If you don’t see anything else here, you’re probably too early, or I’m not bothered to actually use this feature.</p>
+</blockquote>
+
+<p><img src="/assets/images/parmjot-pfp-square.jpg" alt="a picture of the author, Parmjot" /></p>
+
+			</article>
+		</main><footer><div id="footer-links"><a href="/">
+					<div>Home</div>
+				</a><a href="/about.html">
+					<div>About</div>
+				</a><a href="/blog.html">
+					<div>Blog</div>
+				</a></div>
+	    <div id="blatant-advertising">
+	    	This website is using Dusk, a theme built with ❤️ for GitHub pages, by Parmjot Singh.
+	    </div></footer>
+</body>
+</html>
